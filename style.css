@@ -16,21 +16,24 @@ button {
 	background-color: #3882F6;
 	color: #F9FAF8;
 	font-size: 18px;
-	font-weight: 400;
+	font-weight: 700;
 	border-radius: 8px;
 	border: none;
 	padding: 8px 32px;
 }
 
-img {
+img .hero-image {
 	color: #F9FAF8;
+	background-color: #95a7c0;
+	padding: inherit;
+	width: 320px;
 }
 
 .header {
 	display: flex;
 	justify-content: space-between;
 	background: #1F2937;
-	padding: 64px;
+	padding: 32px 176px 96px;
 }
 
 .header-left {
@@ -50,22 +53,110 @@ img {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	padding: 72px;
-
+	padding-bottom: 96px;
 }
 
 .hero-left-main {
 	font-size: 48px;
 	font-weight: 800;
 	color: #F9FAF8;
-	width: 320px;
+	width: 480px;
 }
 
 .hero-left-sub {
 	color: #E5E7EB;
 	font-size: 18px;
-	width: 640px;
+	text-align: left;
+	width: 480px;
+	padding-bottom: 16px;
 }
+
+.content1 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.information-images {
+	display: flex;
+	color: #1f2937;	
+}
+
+
+.information-header-text {
+	
+	font-size: 36px;
+	font-weight: 700;
+	color: #1F2937;
+	padding: 48px;
+}
+
+.information-subtext {
+	align-items: center;
+	justify-content: center;
+	word-break: normal;
+	text-align: center;
+}
+
+.information-square {
+	width: 160px;
+	padding: 32px;
+}
+
+.content2 {
+	justify-content: center;
+	align-items: center;
+	background-color: #E5E7EB;
+	font-size: 36px;
+	font-style: italic;
+	font-weight: 300;
+	color: #1F2937;
+	padding: 96px 320px;
+}
+
+.author {
+	font-style: normal;
+	font-weight: 700;
+	text-align: right;
+}
+
+.content3 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.button-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #3882F6;
+	color: #F9FAF8;
+	font-size: 18px;
+	font-weight: 700;
+	border-radius: 8px;
+	border: none;
+	padding: 32px 48px;
+	width: 960px;
+	margin: 96px;
+	gap: 64px;
+}
+
+.content3-text {
+	font-size: 22px;
+	font-weight: 700;
+}
+
+.content3-subtext {
+	font-weight: 400;
+}
+
+.call-action-btn {
+	border: 2px solid white;
+}
+
 
 .footer {
 	background: #1F2937;
